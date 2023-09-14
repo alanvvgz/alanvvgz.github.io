@@ -1,4 +1,5 @@
 <script>
+        <button id="makeTransparentButton">Curioso</button>
         const rows = document.querySelectorAll('tr');
         rows.forEach(row => {
             row.addEventListener('click', () => {
