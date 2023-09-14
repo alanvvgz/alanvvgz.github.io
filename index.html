@@ -1,0 +1,129 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelinha massa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url('https://media4.giphy.com/media/ZBythhSiZAoYea6vC2/giphy.gif?cid=ecf05e47j3gqjea5mv5xdna9rwsss234mt8qm4iuazqp0jvj&ep=v1_gifs_search&rid=giphy.gif&ct=g');
+            background-size: cover;
+        }
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            max-width: 800px;
+            background-color: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 12px 20px;
+            text-align: center; 
+        }
+
+        th {
+            background-color: #000000;
+            color: #fff;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #ddd;
+        }
+
+        tr.selected {
+            background-color: #868686;
+        }
+
+        td:nth-child(6) {
+            background-color: #c0e218;
+            color: #000;
+            font-weight: bold;
+        }
+        button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: #000000;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr class="header">
+            <th>Linguagem</th>
+            <th>Tipo de Linguagem</th>
+            <th>Popularidade</th>
+            <th>Usos Principais</th>
+            <th>Dificuldade</th>
+            <th>Minha Opinião</th>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
+            <td>Interpretada</td>
+            <td>Bastante alta</td>
+            <td>Web, front-end, back-end</td>
+            <td>Moderada</td>
+            <td>Muito boa para o desenvolvimento web, além de ser muito utilizada no mercado.</td>
+        </tr>
+        <tr>
+            <td>Java</td>
+            <td>Compilada</td>
+            <td>Alta</td>
+            <td>Aplicativos, Android</td>
+            <td>Difícil</td>
+            <td>Muito complexa, e facilmente estressante, bem difícil para iniciantes.</td>
+        </tr>
+        <tr>
+            <td>PHP</td>
+            <td>Interpretada</td>
+            <td>Mediana</td>
+            <td>Desenvolvimento web</td>
+            <td>Fácil</td>
+            <td>Rápida, facilita bastante o desenvolvimento de sistemas.</td>
+        </tr>
+        <tr>
+            <td>Python</td>
+            <td>Interpretada</td>
+            <td>Gigantesca</td>
+            <td>Ciência de dados, automação</td>
+            <td>Fácil</td>
+            <td>Fácil e bastante versátil, ótima para iniciantes, bastante oportunidades de emprego.</td>
+        </tr>
+        <tr>
+            <td>C#</td>
+            <td>Compilada</td>
+            <td>Mediana</td>
+            <td>Aplicativos Windows, jogos</td>
+            <td>Moderada</td>
+            <td>Boa e uma das principais para desenvolvimento de softwares(jogos), uma das mais relevantes e requisitadas.</td>
+        </tr>
+        <tr>
+            <td>Ruby</td>
+            <td>Interpretada</td>
+            <td>Crescente/Popular</td>
+            <td>Desenvolvimento de aplicações web, aplicações de software</td>
+            <td>Moderada</td>
+            <td>Comunidade bem ativa, aprendizagem rápida, e vem crescendo muito ultimamente.</td>
+        </tr>
+    </table>
+</body>
+</html>
